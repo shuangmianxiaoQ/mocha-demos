@@ -7,6 +7,7 @@ describe('promise.test.js - 异步测试', function() {
       .then(function(res) {
         return res.json();
       }).then(function(json) {
+        // mocha允许直接返回Promise对象，等到它的状态改变再执行断言
         expect(json).to.be.an('object');
       });
   });

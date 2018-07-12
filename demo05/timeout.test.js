@@ -6,10 +6,9 @@ describe('timeout.test.js - 超时测试', function() {
     var f = function() {
       x = false;
       expect(x).to.be.not.ok;
+      // 必须显式调用该函数，否则mocha无法知道测试是否结束，等到超时报错
       done();
     };
     setTimeout(f, 4000);
   });
 });
-
-
