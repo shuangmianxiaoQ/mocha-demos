@@ -1,7 +1,9 @@
 该仓库是fork阮一峰老师的关于Mocha框架入门教程案例的仓库：["测试框架 Mocha 实例教程"](http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html)
 
 > "Mocha is a feature-rich JavaScript test framework running on Node.js and the browser, making asynchronous testing simple and fun."
+>
 > "Mocha是一个基于Node.js和浏览器上运行的功能丰富的JavaScript测试框架，它使得异步测试变得更加简单而有趣。"
+>
 > -- 官网：[Mochajs.org](https://mochajs.org/)
 
 ![](http://www.ruanyifeng.com/blogimg/asset/2015/bg2015120301.png)
